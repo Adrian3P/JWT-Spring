@@ -1,0 +1,53 @@
+# Ignore environment variable files
+.env
+
+# Ignore application configuration files
+application.properties
+application.yml
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Ignore Gradle wrapper files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ignore temporary files and OS-specific files
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore STS (Spring Tool Suite) files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Ignore NetBeans files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore VS Code files
+.vscode/
+
+# Optional: Add other sensitive files or directories if necessary
+secret.txt
+
