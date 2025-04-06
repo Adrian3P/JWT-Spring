@@ -5,7 +5,7 @@
 application.properties
 application.yml
 
-# Ignore IntelliJ IDEA files
+### IntelliJ IDEA ###
 .idea/
 *.iws
 *.iml
@@ -14,19 +14,14 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-# Ignore Gradle wrapper files
+### Gradle ###
 .gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# Ignore temporary files and OS-specific files
-*.tmp
-*.swp
-.DS_Store
-
-# Ignore STS (Spring Tool Suite) files
+### STS (Spring Tool Suite) ###
 .apt_generated
 .classpath
 .factorypath
@@ -38,16 +33,20 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-# Ignore NetBeans files
+### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-# Ignore VS Code files
+### VS Code ###
 .vscode/
+
+# Ignore temporary files and OS-specific files
+*.tmp
+*.swp
+.DS_Store
 
 # Optional: Add other sensitive files or directories if necessary
 secret.txt
-
